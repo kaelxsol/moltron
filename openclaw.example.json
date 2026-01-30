@@ -1,0 +1,17 @@
+{
+  "browser": {
+    "enabled": true
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "google/gemini-2.0-flash"
+      },
+      "sandbox": {
+        "browser": {
+          "allowHostControl": true
+        }
+      }
+    }
+  }
+}
